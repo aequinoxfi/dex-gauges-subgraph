@@ -112,3 +112,7 @@ templates:
       callHandlers:
         - function: deposit_reward_token(address,uint256)
           handler: handleDepositRewardToken
+        - function: killGauge()
+          handler: handleKillGauge
+        - function: unkillGauge()
+          handler: handleUnkillGauge
