@@ -1,0 +1,23 @@
+goerli:
+  network: goerli
+  votingEscrow:
+    address: '0x1f54bAceCb21586C0337694fAe77D2E518da21b7'
+    startBlock: 8121975
+  gaugeFactory:
+    address: '0x8b4aB8ea69Da6f93dD365cf15Ff25b217C4D3315'
+    startBlock: 8121975
+  gaugeController:
+    address: '0x2ee2f54e95ce6f24dAdbDfa8221a6F763E8eEB96'
+    startBlock: 8121975
+
+mainnet:
+  network: bsc
+  votingEscrow:
+    address: '0x06Aba6E8F69A0Be680f96D923EFB682E63Db6a9f'
+    startBlock: 20460150
+  gaugeFactory:
+    address: '0x0FA1097A49F54420CC5895455345dC605ee8d3c4'
+    startBlock: 20495350
+  gaugeController:
+    address: '0x585ECE7932226CCf5A259c367781F07EBBB1950F'
+    startBlock: 20460180
